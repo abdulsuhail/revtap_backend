@@ -15,7 +15,6 @@ module.exports = {
             
         }
       ])
-      console.log(result)
       let response = [];
       for(let i=0;i<result.length;i++)
       {
