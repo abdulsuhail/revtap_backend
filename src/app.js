@@ -12,7 +12,7 @@ const appHooks = require('./app.hooks')
 const mongoose = require('./mongoose');
 
 const app = express(feathers())
-app.configure(configuration())
+app.configure(configuration())  //used for configuration
 
 app.use(cors())
 app.use(compress())
